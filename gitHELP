@@ -1,0 +1,23 @@
+# 1. Переход в папку проекта
+cd C:\Users\student\Desktop\react-landing
+
+# 2. Подключаем Git (если не добавлен в PATH)
+$env:Path += ";C:\Program Files\Git\cmd"
+
+# 3. Инициализация репозитория
+git init
+
+# 4. Связь с GitHub
+git remote add origin https://github.com/bokartqq-cmd/react-landing.git
+
+# 5. Добавляем файлы
+git add .
+
+# 6. Первый коммит (ОБЯЗАТЕЛЬНО перед push)
+git commit -m "Initial commit"
+
+# 7. Переименование ветки в main
+git branch -M main
+
+# 8. Отправка на GitHub
+git push -u origin main
