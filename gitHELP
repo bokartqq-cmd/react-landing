@@ -1,3 +1,5 @@
+Открываем PowerShell
+
 # 1. Переход в папку проекта
 cd C:\Users\student\Desktop\react-landing
 
@@ -14,10 +16,15 @@ git remote add origin https://github.com/bokartqq-cmd/react-landing.git
 git add .
 
 # 6. Первый коммит (ОБЯЗАТЕЛЬНО перед push)
-git commit -m "Initial commit"
+git commit -m "Название коммита"
 
-# 7. Переименование ветки в main
+# 7. Если git branch не *main
+Переименование ветки в main
 git branch -M main
 
 # 8. Отправка на GitHub
+git push -u origin main
+
+# 9. ДАЛЕЕ НУЖНЫ ТОЛЬКО 2 КОМАНДЫ: 
+git commit -m "Название коммита"
 git push -u origin main
